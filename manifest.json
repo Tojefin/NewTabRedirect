@@ -1,0 +1,37 @@
+{
+	"name": "NewTab Redirect",
+	"description": "Use a custom URL as the New Tab page with background and auto focus settings",
+	"version": "1.0.0",
+
+	"chrome_url_overrides": {
+		"newtab": "new-tab.html"
+	},
+
+	"options_page": "options.html",
+	"background": {
+		"scripts": [
+			"js/background.js"
+		]
+	},
+
+	"icons": {
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+
+	"browser_action": {
+		"default_icon": {
+			"48": "icons/48.png",
+			"128": "icons/128.png"
+		},
+		"default_popup": "options.html",
+		"default_title": "New Tab URL"
+	},
+
+	"permissions": [
+		"storage",
+		"file:///*"
+	],
+
+	"manifest_version": 2
+}

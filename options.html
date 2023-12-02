@@ -1,0 +1,26 @@
+<!doctype html>
+
+<head>
+    <title>NewTab Redirect</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/options.css">
+    <script src="js/options.js"></script>
+</head>
+
+<body>
+    <h1><span>NewTab Redirect</span>Options</h1>
+    <div id="options">
+        <label for="url">URL
+            <input id="url" type="text" pattern=".*:.*">
+            <span class="btw">Needs <code>http://</code> or <code>https://</code> prefix. Use <code>about:blank</code> for an empty page.</span>
+        </label>
+        <label for="focus">Auto focus on addres bar
+            <input id="focus" type="checkbox">
+        </label>
+        <label for="bgColor">Background color while loading
+            <input id="bgColor" type="color">
+            <span class="btw"><code>blue</code>, <code>#333</code>, <code>rgb(2, 15, 28)</code>, …</span>
+        </label>
+        <button>Save</button>
+    </div>
+</body>
