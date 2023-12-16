@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: sans-serif;
-  font-size: .85em;
+  font-size: 0.85em;
   min-width: 14em;
 }
 
@@ -33,10 +33,10 @@ label {
 input {
   display: block;
   width: 100%;
-  margin: .25em 0;
-  padding: .2em;
+  margin: 0.25em 0;
+  padding: 0.2em;
   border: solid 1px #cdcdcd;
-  border-radius: .2em;
+  border-radius: 0.2em;
 }
 
 input:invalid {
@@ -47,7 +47,7 @@ input:invalid {
 code {
   border-radius: 2px;
   background: #eee;
-  margin: 0 .05em;
+  margin: 0 0.05em;
   font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ code {
 
 #status {
   color: gray;
-  transition: opacity .1s ease 0s;
+  transition: opacity 0.1s ease 0s;
 }
 
 #status.notice {
