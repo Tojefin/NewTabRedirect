@@ -1,7 +1,7 @@
 {
 	"name": "NewTab Redirect",
 	"description": "Use a custom URL as the New Tab page with background and auto focus settings",
-	"version": "1.0.0",
+	"version": "1.1.0",
 
 	"chrome_url_overrides": {
 		"newtab": "new-tab.html"
